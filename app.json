@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "boilerplate",
+    "slug": "boilerplate",
+    "scheme": "boilerplate",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#18181B"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.andrgreen.boilerplate"
+    },
+    "android": {
+      "versionCode": 19,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.andrgreen.boilerplate"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+          "isAccessMediaLocationEnabled": "true"
+        }
+      ]
+    ]
+  }
+}
